@@ -44,6 +44,7 @@ public class Ejecutor {
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
         
+        // es el numeor del tamaño del arraylist que vamos a recorrer 
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto

@@ -1,7 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*teorica y defensa del codigo 
  */
 package paquete4;
 
@@ -43,7 +40,7 @@ public class Ejecutor {
                 listaArriendos);
         centro.establecerTotalArriendosBaseMensual();
         centro.establecerTotalArriendosFinalMensual();
-        System.out.println(centro);
+        System.out.println(centro);// Estoy llamando al metodo to string 
     
     }
 }
